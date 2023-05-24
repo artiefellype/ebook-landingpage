@@ -26,8 +26,11 @@ module.exports = {
       },
       boxShadow: {
         defaultBox: '5px 6px 6px rgba(0, 0, 0, 0.25)',
+      },
+      screens:{
+          'cel': '400px',
       }
-    },
+    }
   },
   plugins: [],
 }

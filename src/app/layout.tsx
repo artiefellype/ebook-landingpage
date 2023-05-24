@@ -19,6 +19,7 @@ export default function RootLayout({
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" />
             <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800;900&family=Raleway:wght@600;800&display=swap" rel="stylesheet" />
+            <title>Os Segredos para o Sucesso Financeiro Online</title>
       </head>
       <body className={inter.className}>{children}</body>
     </html>
