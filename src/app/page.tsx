@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <main className="flex flex-col w-screen">
@@ -20,7 +22,7 @@ export default function Home() {
             id="book"
             className="sm:hidden flex justify-center items-center w-full"
           >
-            <img src="/book.svg" alt="" width={332} height={306} />
+            <Image src="/book.svg" alt="" width={332} height={306} />
           </div>
           <h4 className="font-raleway text-center text-defaultBg sm:text-defaultText1  sm:text-left font-semibold text-xl sm:text-2xl w-[205px] sm:w-[546px] sm:my-0 my-4">
             Transforme sua vida financeira com os segredos revelados por uma IA
@@ -45,7 +47,7 @@ export default function Home() {
           id="book"
           className="hidden sm:flex justify-center items-center w-full"
         >
-          <img src="/book.svg" alt="" width={860} height={790} />
+          <Image src="/book.svg" alt="" width={860} height={790} />
         </div>
       </section>
       <section id="more" className=" min-w-screen min-h-screen ">
@@ -53,7 +55,7 @@ export default function Home() {
           <div className="flex flex-col w-full justify-around  py-28 xl:py-0">
             <div className="flex justify-center  items-center pb-28">
               <div className="flex flex-col items-start max-w-[300px] cel:max-w-[375px] sm:max-w-[475px] w-full">
-                <img src="/icon-book.svg" alt="" width={66} height={66} />
+                <Image src="/icon-book.svg" alt="" width={66} height={66} />
                 <h1 className="font-poppins font-black text-defaultBg text-6xl w-[288px]">
                   <span className="text-defaultText2">SOBRE</span> O E-BOOK
                 </h1>
@@ -62,7 +64,7 @@ export default function Home() {
             <div className="w-full flex justify-center items-center">
               <div className=" max-w-[300px] cel:max-w-[375px] sm:max-w-[475px] font-raleway font-semibold text-base cel:text-xl text-justify">
                 <p>
-                  Cada capítulo deste livro foi{" "}
+                  Cada capítulo deste livro foi
                   <span className="text-defaultText2">
                     cuidadosamente elaborado para proporcionar um aprendizado
                     valioso sobre negócios no mundo digital
@@ -71,7 +73,7 @@ export default function Home() {
                   você terá acesso a informações preciosas que podem
                   <span className="text-defaultText2">
                     impulsionar sua jornada
-                  </span>{" "}
+                  </span>
                   rumo à independência financeira.
                 </p>
                 <p>
@@ -91,7 +93,7 @@ export default function Home() {
                   Descubra os "Segredos para o Sucesso Financeiro Online" e
                   desvende o poder das estratégias reveladas por uma
                   Inteligência Artificial neste incrível livro. Prepare-se para
-                  uma{" "}
+                  uma
                   <span className="text-defaultText2">
                     leitura descomplicada e envolvente
                   </span>
@@ -101,10 +103,10 @@ export default function Home() {
                   A linguagem clara e direta utilizada ao longo do livro é
                   perfeitamente adequada para leitores jovens e adultos. Assim,
                   de forma envolvente, a IA compartilha seus conhecimentos,
-                  oferecendo insights práticos e{" "}
+                  oferecendo insights práticos e
                   <span className="text-defaultText2">
                     estratégias comprovadas
-                  </span>{" "}
+                  </span>
                   para alcançar resultados excepcionais.
                 </p>
               </div>
