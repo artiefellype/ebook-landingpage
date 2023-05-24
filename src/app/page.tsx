@@ -60,7 +60,12 @@ export default function Home() {
           <div className="flex flex-col w-full justify-around  py-28 xl:py-0">
             <div className="flex justify-center  items-center pb-28">
               <div className="flex flex-col items-start max-w-[300px] cel:max-w-[375px] sm:max-w-[475px] w-full">
-                <Image src="/icon-book.svg" alt="icon book" width={66} height={66} />
+                <Image
+                  src="/icon-book.svg"
+                  alt="icon book"
+                  width={66}
+                  height={66}
+                />
                 <h1 className="font-poppins font-black text-defaultBg text-6xl w-[288px]">
                   <span className="text-defaultText2">SOBRE</span> O E-BOOK
                 </h1>
@@ -69,15 +74,15 @@ export default function Home() {
             <div className="w-full flex justify-center items-center">
               <div className=" max-w-[300px] cel:max-w-[375px] sm:max-w-[475px] font-raleway font-semibold text-base cel:text-xl text-justify">
                 <p>
-                  Cada capítulo deste livro foi
+                  Cada capítulo deste livro foi&nbsp;
                   <span className="text-defaultText2">
                     cuidadosamente elaborado para proporcionar um aprendizado
                     valioso sobre negócios no mundo digital
                   </span>
                   . Desde as bases fundamentais até as táticas mais avançadas,
-                  você terá acesso a informações preciosas que podem
+                  você terá acesso a informações preciosas que podem&nbsp;
                   <span className="text-defaultText2">
-                    impulsionar sua jornada
+                    impulsionar sua jornada&nbsp;
                   </span>
                   rumo à independência financeira.
                 </p>
@@ -98,7 +103,7 @@ export default function Home() {
                   Descubra os Segredos para o Sucesso Financeiro Online e
                   desvende o poder das estratégias reveladas por uma
                   Inteligência Artificial neste incrível livro. Prepare-se para
-                  uma
+                  uma&nbsp;
                   <span className="text-defaultText2">
                     leitura descomplicada e envolvente
                   </span>
@@ -108,9 +113,9 @@ export default function Home() {
                   A linguagem clara e direta utilizada ao longo do livro é
                   perfeitamente adequada para leitores jovens e adultos. Assim,
                   de forma envolvente, a IA compartilha seus conhecimentos,
-                  oferecendo insights práticos e
+                  oferecendo insights práticos e&nbsp;
                   <span className="text-defaultText2">
-                    estratégias comprovadas
+                    estratégias comprovadas&nbsp;
                   </span>
                   para alcançar resultados excepcionais.
                 </p>
